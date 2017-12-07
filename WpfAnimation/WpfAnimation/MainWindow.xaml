@@ -27,6 +27,22 @@
                                 From="1.0"
                                 To="0.0"
                                 Duration="0:0:5" />
+                            <DoubleAnimation
+                                AutoReverse="True"
+                                RepeatBehavior="Forever"
+                                Storyboard.TargetName="MyRectangle"
+                                Storyboard.TargetProperty="Width"
+                                From="100"
+                                To="10"
+                                Duration="0:0:5" />
+                            <DoubleAnimation
+                                AutoReverse="True"
+                                RepeatBehavior="Forever"
+                                Storyboard.TargetName="MyRectangle"
+                                Storyboard.TargetProperty="Height"
+                                From="100"
+                                To="10"
+                                Duration="0:0:5" />
                         </Storyboard>
                     </BeginStoryboard>
 
