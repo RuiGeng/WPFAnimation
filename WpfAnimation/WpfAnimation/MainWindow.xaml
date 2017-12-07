@@ -43,6 +43,14 @@
                                 From="100"
                                 To="10"
                                 Duration="0:0:5" />
+                            <ColorAnimation
+                                AutoReverse="True"
+                                RepeatBehavior="Forever"
+                                Storyboard.TargetName="MyRectangle"
+                                Storyboard.TargetProperty="(Fill).(SolidColorBrush.Color)"
+                                From="Blue"
+                                To="Red"
+                                Duration="0:0:5" />
                         </Storyboard>
                     </BeginStoryboard>
 
